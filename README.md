@@ -1,4 +1,4 @@
-# Mahesh CS
+# Sujai HM
 # A 4-week Research Internship on RISC-V using VSDSquadron Mini RISC-V Dev Board
 
 [Click here for board link](https://www.vlsisystemdesign.com/vsdsquadronmini/)
