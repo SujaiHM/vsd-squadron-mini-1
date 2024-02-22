@@ -71,26 +71,8 @@ In my case ```./configure --prefix=/home/nawras/riscv```
 Then
 ```make``` **(Have patience)**
 
-### Troubleshooting
 
-**ERROR 1**: "gcc not found"
-try ```sudo apt-get install build-essential```
-see if gcc is in /usr/bin/
-
-**ERROR 2**: "no acceptable c compiler found in $PATH"
-Open the .bashrc by any editors like vim,emacs,nano,gedit ```nano ~/.bashrc``` 
-Add the below line at the end of .bashrc and save it
-```export PATH="$PATH:/usr/bin/gcc```
-
-**ERROR 3**: Even after installing gcc g++ sometimes it shows 'gcc' command not found ,though it suggest to ```sudo apt install gcc``` which again will cause the same error. I figured this by ```ls```'ing the /usr/bin directory to find the gcc g++ cc to be in red text with black background indicates broken link or missing file.
-
-
-Better purge it at **YOUR OWN RISK** and reinstall it again.
-```sudo apt-get purge gcc```
-
-or **REINSTALL** ```sudo apt-get install --reinstall gcc``` (didn't work for me)
-
-
+![WhatsApp Image 2024-02-22 at 5 22 13 PM](https://github.com/MAHESH-CS/vsd-squadron-mini/assets/160752185/47e45966-fb1e-4aa8-b11c-9297c767f5fd)
 
 ### INSTALLING IVERILOG GTKWAVE & YOSYS
 
@@ -105,10 +87,10 @@ make
 sudo make install
 ```
 
-![yosys_make](https://github.com/Nawras-Ahamed/VSD_Squadron_mini_Research/assets/50738659/e722e508-0802-4f50-9cb6-02e9c6bafe48)
+![WhatsApp Image 2024-02-22 at 5 22 42 PM](https://github.com/MAHESH-CS/vsd-squadron-mini/assets/160752185/dfecb0b6-f280-470d-a204-6a98452484b6)
 
 
-![buildsuccess_yosys](https://github.com/Nawras-Ahamed/VSD_Squadron_mini_Research/assets/50738659/5e10e5b8-19dd-4460-994f-2759e9b942b1)
+
 
 
 ### iVerilog
@@ -117,11 +99,12 @@ sudo make install
 sudo apt-get install iverilog
 ```
 
+![WhatsApp Image 2024-02-22 at 5 23 17 PM](https://github.com/MAHESH-CS/vsd-squadron-mini/assets/160752185/e97246dd-0af8-4271-9a79-d66babaf900e)
 
 ### GTkWave
 ``` sudo apt-get install gtkwave ```
 
-![iverilog_gtkwave](https://github.com/Nawras-Ahamed/VSD_Squadron_mini_Research/assets/50738659/344a4225-c6bb-4728-a325-ac66d1621b28)
+![WhatsApp Image 2024-02-22 at 5 23 48 PM](https://github.com/MAHESH-CS/vsd-squadron-mini/assets/160752185/3aaf14ce-18b8-430b-9b2b-905d27a42307)
 
 </details>
 
