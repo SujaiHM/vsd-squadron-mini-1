@@ -45,7 +45,8 @@
 <details>
 <summary><b>Instruction code format </b></summary>
 	<br>
-![task2singe](https://github.com/MAHESH-CS/vsd-squadron-mini/assets/160752185/e091d9c9-ff82-476b-8893-83af782cd86c)
+![306988715-e091d9c9-ff82-476b-8893-83af782cd86c](https://github.com/SujaiHM/vsd-squadron-mini-1/assets/119932063/38de8277-361e-4eae-96d4-d1d2c20c891f)
+
 
 </details>
 
